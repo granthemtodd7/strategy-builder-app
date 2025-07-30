@@ -1,7 +1,3 @@
-streamlit
-yfinance
-pandas
-numpy
 import streamlit as st
 import pandas as pd
 import yfinance as yf
@@ -17,8 +13,7 @@ This is the starting point. In later steps you'll:
 - get AI suggestions
 """)
 
-# Simple smoke test UI
-col1, col2, col3 = st.columns([2,1,1])
+col1, col2, col3 = st.columns([2, 1, 1])
 with col1:
     symbol = st.text_input("Symbol", "SPY")
 with col2:
